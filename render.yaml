@@ -1,11 +1,5 @@
 services:
   - type: web
-    name: pathfinder-lab
-    env: docker
-    plan: free
-    repo: https://github.com/Asaruthee/CTF---lab.git
-    branch: main
-    dockerfilePath: Dockerfile
-    buildCommand: ""
-    startCommand: ""
-    autoDeploy: true
+    name: secret-directory
+    env: static
+    staticPublishPath: pathfinder-lab
